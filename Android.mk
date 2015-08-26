@@ -14,7 +14,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter matisse3g,$(TARGET_DEVICE)),)
+ifneq ($(filter matisselte,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
