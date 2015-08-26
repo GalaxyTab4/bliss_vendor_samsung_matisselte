@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += \
     libHevcSwDecoder \
     TimeService
 
-$(call inherit-product, vendor/samsung/matissewifi/matissewifi-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/matisse3g/matisse3g-vendor-blobs.mk)
 
 
 
